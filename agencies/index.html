@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!--base(href='http://mysterymarket.ru/')-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <!--link(rel="shortcut icon" href="/static/images/favicon.png" type="image/png")-->
+    <script src="/app/index.js"></script>
+    <title>MysteryMarket</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="header__logo-container"><a class="header__logo" href="/"></a></div>
+        <div class="header__right">
+          <div class="header__inner-links"><a class="header__inner-link link-shoppers" href="/">Тайным покупателям</a><a class="header__inner-link link-agencies" href="/agencies">Агенствам и заказчикам</a></div>
+          <div class="header__outer-links"><a class="header__outer-link link-sign-in" href="http://stage.mysterymarket.ru/auth" target="_blank">Вход</a><a class="header__outer-link link-register" href="http://stage.mysterymarket.ru/register" target="_blank">Регистрация</a></div>
+        </div>
+      </div>
+    </header>
+    <div class="main">
+      <h1 class="main__title">Крупнейшая база исполнителей для проверок тайный покупатель, мерчандайзинговых задач и ритейл аудита</h1>
+      <h3 class="main__subtitle">Наш ресурс подходит для агентств, прямых заказчиков и краудсорсинговых сервисов. И это бесплатно!</h3>
+      <div class="button modal__btn">Отправить заявку</div>
+      <div class="rounds">
+        <div class="round" style="background-image: url(/static/images/avatars/avatar0.jpg)"></div>
+        <div class="round round_top" style="background-image: url(/static/images/avatars/avatar1.jpg)"></div>
+        <div class="round" style="background-image: url(/static/images/avatars/avatar2.jpg)"></div>
+        <div class="round round_top" style="background-image: url(/static/images/avatars/avatar3.jpg)"></div>
+        <div class="round" style="background-image: url(/static/images/avatars/avatar4.jpg)"></div>
+        <div class="round round_top" style="background-image: url(/static/images/avatars/avatar5.jpg)"></div>
+        <div class="round" style="background-image: url(/static/images/avatars/avatar6.jpg)"></div>
+        <div class="round round_top" style="background-image: url(/static/images/avatars/avatar7.jpg)"></div>
+        <div class="round" style="background-image: url(/static/images/avatars/avatar8.jpg)"></div>
+        <div class="round round_top" style="background-image: url(/static/images/avatars/avatar9.jpg)"></div>
+        <div class="round" style="background-image: url(/static/images/avatars/avatar10.jpg)"></div>
+        <div class="round round_top" style="background-image: url(/static/images/avatars/avatar11.jpg)"></div>
+      </div>
+      <div class="steps-container">
+        <h4 class="steps__label">Все очень просто:</h4>
+        <div class="steps">
+          <div class="steps__line"></div>
+          <div class="steps__step">
+            <svg viewBox="0 0 24 24">
+              <path d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+            </svg>
+          </div>
+          <div class="steps__step">
+            <svg viewBox="0 0 24 24">
+              <path d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+            </svg>
+          </div>
+          <div class="steps__step">
+            <div class="steps__final-item"></div>
+          </div>
+        </div>
+      </div>
+      <div class="advantages">
+        <div class="advantage"><span class="advantage__title">Регистрируетесь и подтверждаете свой статус</span>
+          <p class="advantage__description">Мы допускаем только профессиональных игроков рынка</p>
+        </div>
+        <div class="advantage"><span class="advantage__title">Размещаете задания - адреса и краткое описание</span>
+          <p class="advantage__description">Мы не просим указывать название заданий, а тайные покупатели не знают бренд вашего агентства, пока вы им не сообщите. Всё конфиденциально</p>
+        </div>
+        <div class="advantage"><span class="advantage__title">Получаете отклики и приглашаете исполнителей</span>
+          <p class="advantage__description">Летом 2018 будет реализован API для интеграции с вашим порталом</p>
+        </div>
+      </div>
+      <div class="button modal__btn">Отправить заявку</div>
+    </div>
+    <footer>
+      <div class="footer">
+        <div class="header__logo-container"><a class="header__logo" href="/"></a></div>
+        <div class="header__right">
+          <div class="header__inner-links"><a class="header__inner-link link-shoppers" href="/">Тайным покупателям</a><a class="header__inner-link link-agencies" href="/agencies">Агенствам и заказчикам</a></div>
+          <div class="header__outer-links"><a class="header__outer-link link-sign-in" href="http://stage.mysterymarket.ru/auth" target="_blank">Вход</a><a class="header__outer-link link-register" href="http://stage.mysterymarket.ru/register" target="_blank">Регистрация</a></div>
+        </div>
+      </div>
+    </footer>
+    <div class="modal hide">
+      <div class="modal__message-to-show hide"><span class="modal__messageto-show__text">Спасибо! Мы скоро с Вами свяжемся.</span></div>
+      <div class="preloader__spinner hide">
+        <div class="preloader__animation"></div>
+      </div>
+      <div class="modal__form">
+        <div class="modal__close-btn">
+          <svg viewBox="0 0 21.9 21.9">
+            <path d="M14.1,11.3c-0.2-0.2-0.2-0.5,0-0.7l7.5-7.5c0.2-0.2,0.3-0.5,0.3-0.7s-0.1-0.5-0.3-0.7l-1.4-1.4C20,0.1,19.7,0,19.5,0  c-0.3,0-0.5,0.1-0.7,0.3l-7.5,7.5c-0.2,0.2-0.5,0.2-0.7,0L3.1,0.3C2.9,0.1,2.6,0,2.4,0S1.9,0.1,1.7,0.3L0.3,1.7C0.1,1.9,0,2.2,0,2.4  s0.1,0.5,0.3,0.7l7.5,7.5c0.2,0.2,0.2,0.5,0,0.7l-7.5,7.5C0.1,19,0,19.3,0,19.5s0.1,0.5,0.3,0.7l1.4,1.4c0.2,0.2,0.5,0.3,0.7,0.3  s0.5-0.1,0.7-0.3l7.5-7.5c0.2-0.2,0.5-0.2,0.7,0l7.5,7.5c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3l1.4-1.4c0.2-0.2,0.3-0.5,0.3-0.7  s-0.1-0.5-0.3-0.7L14.1,11.3z"></path>
+          </svg>
+        </div>
+        <h3 class="modal__form__title">Мы вам перезвоним</h3><span class="modal__form__validate-text"></span>
+        <div class="modal__form__wrapper">
+          <div class="modal__form__name-input__wrapper"><span class="modal__form__name-input__title">ФИО</span>
+            <input class="modal__form__name-input__input" type="text" name="name" required>
+          </div>
+          <div class="modal__form__company-input__wrapper"><span class="modal__form__company-input__title">Компания</span>
+            <input class="modal__form__company-input__input" type="text" name="company" required>
+          </div>
+          <div class="modal__form__phone-input__wrapper"><span class="modal__form__phone-input__title">Телефон</span>
+            <input class="modal__form__phone-input__input" type="text" name="phone" required>
+          </div>
+          <div class="modal__form__email-input__wrapper"><span class="modal__form__email-input__title">E-mail</span>
+            <input class="modal__form__email-input__input" type="text" name="email" required>
+          </div>
+        </div>
+        <button class="modal__form__submit button">отправить</button>
+      </div>
+    </div>
+  </body>
+</html>

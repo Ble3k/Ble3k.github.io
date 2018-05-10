@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!--base(href='http://mysterymarket.ru/')-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <!--link(rel="shortcut icon" href="/static/images/favicon.png" type="image/png")-->
+    <script src="/app/index.js"></script>
+    <title>MysteryMarket</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="header__logo-container"><a class="header__logo" href="/"></a></div>
+        <div class="header__right">
+          <div class="header__inner-links"><a class="header__inner-link link-shoppers" href="/">Тайным покупателям</a><a class="header__inner-link link-agencies" href="/agencies">Агенствам и заказчикам</a></div>
+          <div class="header__outer-links"><a class="header__outer-link link-sign-in" href="http://stage.mysterymarket.ru/auth" target="_blank">Вход</a><a class="header__outer-link link-register" href="http://stage.mysterymarket.ru/register" target="_blank">Регистрация</a></div>
+        </div>
+      </div>
+    </header>
+    <div class="main">
+      <h1 class="main__title">Крупнейший ресурс с заданиями для тайных покупателей и мерчандайзеров</h1>
+      <h3 class="main__subtitle">Лучший способ найти подработку рядом с домом, получать бесплатные услуги и товары, проводить свободное время с пользой. Мы не агентство, а информационный центр, объединяющий исполнителей и заказчиков.</h3><a class="button" href="http://stage.mysterymarket.ru/register" target="_blank">Начать работать тайным покупателем</a>
+      <div class="industries">
+        <div class="industry" style="background-image: url(/static/images/fashion.png)">
+          <div class="industry__shadow"></div><span class="industry__title">Индустрия моды</span>
+          <p class="industry__description">Посещайте любимые магазины одежды, обуви и аксессуаров</p>
+        </div>
+        <div class="industry" style="background-image: url(/static/images/beauty.png)">
+          <div class="industry__shadow"></div><span class="industry__title">Красота и здоровье</span>
+          <p class="industry__description">Проходите косметические и SPA-процедуры</p>
+        </div>
+        <div class="industry" style="background-image: url(/static/images/cafe.png)">
+          <div class="industry__shadow"></div><span class="industry__title">Кафе и рестораны</span>
+          <p class="industry__description">Обедайте и ужинайте в лучших ресторанах бесплатно</p>
+        </div>
+        <div class="industry" style="background-image: url(/static/images/filling.png)">
+          <div class="industry__shadow"></div><span class="industry__title">АЗС</span>
+          <p class="industry__description">Заправляйте ваш автомобиль за счёт заказчика</p>
+        </div>
+      </div>
+      <div class="advantages">
+        <div class="advantage"><span class="advantage__title">Все задания в одном месте</span>
+          <p class="advantage__description">Вам не нужно заходить на сайт каждого агентства, в разные соцсети и мессенджеры</p>
+        </div>
+        <div class="advantage"><span class="advantage__title">Только надежные заказчики</span>
+          <p class="advantage__description">Мы уже собрали для вас все самые надёждные, платящие агентства и компании</p>
+        </div>
+        <div class="advantage"><span class="advantage__title">Удобный поиск заданий</span>
+          <p class="advantage__description">Фильтры по тарифам, типам задания и городам помогут быстро найти проверки</p>
+        </div>
+      </div><a class="button" href="http://stage.mysterymarket.ru/register" target="_blank">Зарегистрироваться</a>
+    </div>
+    <footer>
+      <div class="footer">
+        <div class="header__logo-container"><a class="header__logo" href="/"></a></div>
+        <div class="header__right">
+          <div class="header__inner-links"><a class="header__inner-link link-shoppers" href="/">Тайным покупателям</a><a class="header__inner-link link-agencies" href="/agencies">Агенствам и заказчикам</a></div>
+          <div class="header__outer-links"><a class="header__outer-link link-sign-in" href="http://stage.mysterymarket.ru/auth" target="_blank">Вход</a><a class="header__outer-link link-register" href="http://stage.mysterymarket.ru/register" target="_blank">Регистрация</a></div>
+        </div>
+      </div>
+    </footer>
+    <div class="modal hide">
+      <div class="modal__message-to-show hide"><span class="modal__messageto-show__text">Спасибо! Мы скоро с Вами свяжемся.</span></div>
+      <div class="preloader__spinner hide">
+        <div class="preloader__animation"></div>
+      </div>
+      <div class="modal__form">
+        <div class="modal__close-btn">
+          <svg viewBox="0 0 21.9 21.9">
+            <path d="M14.1,11.3c-0.2-0.2-0.2-0.5,0-0.7l7.5-7.5c0.2-0.2,0.3-0.5,0.3-0.7s-0.1-0.5-0.3-0.7l-1.4-1.4C20,0.1,19.7,0,19.5,0  c-0.3,0-0.5,0.1-0.7,0.3l-7.5,7.5c-0.2,0.2-0.5,0.2-0.7,0L3.1,0.3C2.9,0.1,2.6,0,2.4,0S1.9,0.1,1.7,0.3L0.3,1.7C0.1,1.9,0,2.2,0,2.4  s0.1,0.5,0.3,0.7l7.5,7.5c0.2,0.2,0.2,0.5,0,0.7l-7.5,7.5C0.1,19,0,19.3,0,19.5s0.1,0.5,0.3,0.7l1.4,1.4c0.2,0.2,0.5,0.3,0.7,0.3  s0.5-0.1,0.7-0.3l7.5-7.5c0.2-0.2,0.5-0.2,0.7,0l7.5,7.5c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3l1.4-1.4c0.2-0.2,0.3-0.5,0.3-0.7  s-0.1-0.5-0.3-0.7L14.1,11.3z"></path>
+          </svg>
+        </div>
+        <h3 class="modal__form__title">Мы вам перезвоним</h3><span class="modal__form__validate-text"></span>
+        <div class="modal__form__wrapper">
+          <div class="modal__form__name-input__wrapper"><span class="modal__form__name-input__title">ФИО</span>
+            <input class="modal__form__name-input__input" type="text" name="name" required>
+          </div>
+          <div class="modal__form__company-input__wrapper"><span class="modal__form__company-input__title">Компания</span>
+            <input class="modal__form__company-input__input" type="text" name="company" required>
+          </div>
+          <div class="modal__form__phone-input__wrapper"><span class="modal__form__phone-input__title">Телефон</span>
+            <input class="modal__form__phone-input__input" type="text" name="phone" required>
+          </div>
+          <div class="modal__form__email-input__wrapper"><span class="modal__form__email-input__title">E-mail</span>
+            <input class="modal__form__email-input__input" type="text" name="email" required>
+          </div>
+        </div>
+        <button class="modal__form__submit button">отправить</button>
+      </div>
+    </div>
+  </body>
+</html>
